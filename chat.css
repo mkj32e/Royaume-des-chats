@@ -1,0 +1,28 @@
+body {
+  color: white; 
+  font-family: Arial, sans-serif;
+  background-image: url('https://i.pinimg.com/originals/d2/91/28/d291286be03d19513f4f43ca12a7284c.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 20px; }
+
+h1 { text-align: center;
+     font-family: serif;
+     text-decoration: underline;
+     color: white; }
+h2 { texte-align: left;
+     font-family: serif;
+     text-decoration: underline;
+     color: white; }
+h3 { font-family: italic;
+     text-decoration: underline;
+     color: blue; }
+a { text-align: center;
+    text-decoration: underline;
+    Font-style: italic;
+    color: black; }
+p:hover { font-style: italic;
+          color: red; }
