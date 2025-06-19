@@ -2,6 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
   const div = document.getElementById('chaton');;
+  const bouton = document.getElementById('monBouton');
 
   div.style.display = 'none';
 
