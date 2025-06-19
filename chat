@@ -1,0 +1,15 @@
+document.addEventListener('DOMContentLoaded', function() {
+  const images = ['https://archzine.fr/wp-content/uploads/2016/01/les-chatons-mignons-chaton-trop-mignon-chat-adorable-amour.jpg', 'https://i.pinimg.com/originals/d2/91/28/d291286be03d19513f4f43ca12a7284c.jpg', 'https://chat-chou.com/wp-content/uploads/2023/10/chats-les-plus-mignons.jpg', 'https://i.pinimg.com/736x/67/e0/4a/67e04ab5f29c88545edd6a4d1222dc0e.jpg']; 
+
+  const img = document.getElementById('imageAleatoire');
+
+  img.addEventListener('click', function() {
+    // Choisit une image au hasard différente de l'actuelle
+    let nouvelleImage;
+    do {
+      nouvelleImage = images[Math.floor(Math.random() * images.length)];
+    } while (nouvelleImage === img.src.split('/').pop());
+    img.src = nouvelleImage;
+  });
+});
+
